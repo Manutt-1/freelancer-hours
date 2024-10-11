@@ -4,6 +4,7 @@ namespace App\Livewire\Projects;
 
 use App\Models\Project;
 use Livewire\Attributes\Computed;
+use Livewire\Attributes\On;
 use Livewire\Component;
 
 class Proposals extends Component
@@ -32,6 +33,8 @@ class Proposals extends Component
     public function loadMore() {
         $this->qty += 5;
     }
+
+    #[On('proposal::created')]
     public function render()
     {
         return view('livewire.projects.proposals');
