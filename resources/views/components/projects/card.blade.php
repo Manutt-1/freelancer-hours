@@ -23,7 +23,21 @@
     </div>
 
     <div class="py-4 description">
-        {!! $project->description !!}
+        {{-- {!! $project->description !!}  --}}
+        <div>
+            Olá! Estamos em busca de um desenvolvedor talentoso para colaborar no desenvolvimento de uma landing page dedicada a promover os serviços do nosso Pet Shop. Somos uma empresa apaixonada por cuidar dos animais, oferecendo serviços de banho e tosa, consultas veterinárias, e uma loja completa com produtos de qualidade para pets.
+        </div>
+        <span>Sobre o projeto:</span>
+        <ul>
+            <li>Escopo: A landing page terá 10 seções, cobrindo desde a apresentação da empresa até os serviços oferecidos e uma área para agendamento online.</li>
+            <li>Design: O design completo já está pronto e finalizado no Figma, garantindo uma base sólida para o desenvolvimento.</li>
+            <li>Objetivo: Criar uma página rápida e responsiva que ajude a converter visitantes em clientes, destacando a confiança e carinho que temos pelos pets.</li>
+        </ul>
+        <span>O que estamos buscando:</span>
+        <div>
+            Um desenvolvedor competente e comprometido, com experiência em HTML, CSS, JavaScript e preferencialmente em React, que consiga transformar o design em uma landing page otimizada e funcional. Alguém que tenha um olhar crítico para detalhes e que possa colaborar para garantir a melhor performance e usabilidade.
+        </div>
+        <span>Estamos animados para trabalhar com alguém que compartilhe nossa paixão por criar experiências de qualidade!</span>
     </div>
 
     <div class="py-4 space-y-4">
